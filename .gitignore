@@ -64,3 +64,11 @@ node_modules/
 
 # dotenv environment variables file
 .env
+dist/proyecto-final/assets/arrows-down-to-people-solid.svg
+dist/proyecto-final/3rdpartylicenses.txt
+dist/proyecto-final/assets/512px-HTML5.png
+dist/proyecto-final/assets/APLogo.png
+dist/proyecto-final/assets/banner.png
+dist/proyecto-final/assets/CSS.png
+
+dist/
