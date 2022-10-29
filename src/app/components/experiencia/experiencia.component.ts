@@ -14,13 +14,17 @@ export class ExperienciaComponent implements OnInit {
   constructor(private sExperiencia: SExperienciaService, private tokenService: TokenService) { }
 
   isLogged = false;
+  isAdmin = false;
 
   ngOnInit(): void {
     this.cargarExperiencia();
+    this.isAdmin = false;
+    this.isLogged = false;
     if (this.tokenService.getToken()) {
       this.isLogged = true;
-    } else {
-      this.isLogged = false;
+      if(this.tokenService.getAuthorities().includes('ROLE_ADMIN')){
+        this.isAdmin = true
+      }
     }
   }
 

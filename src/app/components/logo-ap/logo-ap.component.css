@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .redes{
     margin-right: 0.5em;
-}
+    }
 #logoAP{
     width: 150px;
 }
@@ -13,11 +14,13 @@
     width: 270px;
 }
 img{
-    width: 50px;
-}
+    width: 45px;
+    }
 .btn{
     border-width: medium;
+    margin-left: 4px;
 }
+a{margin-right: 3px;}
 
 /*--- Para la vista de celular ---*/
 @media (max-width: 575px){
@@ -32,4 +35,4 @@ img{
     .redes img{
         margin: 0.2em;
     }
-}
+    }
