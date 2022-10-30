@@ -1,9 +1,7 @@
 body{background-color: #52656f;
     }
-div{
-    background-color: #a1b5cb;
-    text-align: center;
-    justify-content: space-between;
-    max-width: 500px;
-    }
+    div{
+        justify-content: space-between;
+        max-width: 540px;
+        }
     

@@ -1,6 +1,10 @@
 <body>
-<div class="container" *ngIf="expLab">
+<div class="container py-5" *ngIf="expLab">
     <div class="row">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+              <h2 class="fw-bold mb-2 text-uppercase" >Editar experiencia</h2>
+              <br>
         <div>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                 <div class="form-group">
@@ -11,11 +15,14 @@
                     <label for="descripcionE">Descripcion de la tarea</label>
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE" required>
                 </div>
+                <br>
                 <button class="btn btn-primary">
                     Actualizar
                 </button>
             </form>
         </div>
     </div>
+  </div>
+</div>
 </div>
 </body>
