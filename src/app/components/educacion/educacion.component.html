@@ -1,7 +1,7 @@
 <div class="row">
-    <h1>Educacion</h1>
+    <h1>Educación</h1>
     <div class="col-lg-2">
-        <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isAdmin">
+        <button type="button" class="btn btn-primary" routerLink="/nuevaedu" *ngIf="isAdmin">
             Agregar Educacion
         </button>
     </div>
@@ -12,7 +12,7 @@
             <tbody>
                 <tr *ngFor="let Educacion of educacion">
                     <td>
-                        <h2>{{Educacion.nombreE}}</h2>
+                        <h3>{{Educacion.nombreE}}</h3>
                     </td>
                     <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isAdmin">
