@@ -1,5 +1,8 @@
 .row{
     padding: 20px;
+    border: 3px solid black;
+    /*margin: 1px 1px 1px 1px;*/
+    border-top: none;
 }
 div{
     background: #a1b5cb;
