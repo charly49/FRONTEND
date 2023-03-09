@@ -13,12 +13,23 @@
 #logoIN{
     width: 270px;
 }
-img{
+
+.logo a img{
     width: 45px;
     transform: scale(var(--escala, 1));
   transition: transform 0.25s;
     }
-    img:hover{
+    .logo a img:hover{
+        --escala: 1.2;
+        cursor:pointer;
+      }
+      
+.redes a img{
+    width: 45px;
+    transform: scale(var(--escala, 1));
+  transition: transform 0.25s;
+    }
+    .redes a img:hover{
         --escala: 1.2;
         cursor:pointer;
       }

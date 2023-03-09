@@ -9,8 +9,9 @@
     <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
         <circle-progress 
         [percent]="(skill.porcentaje)" 
-        [radius]="70" [imageSrc]="''" 
+        [radius]="100" [imageSrc]="''" 
         [title]="(skill.nombre)"
+        [titleFormat]=""
         [titleColor]="'#212F3C'"
         [subtitleColor]="'#212F3C'"
         [showTitle]="true" 
